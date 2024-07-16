@@ -1,0 +1,15 @@
+{
+  "name": "cssdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --source-map -w scss/styles.scss css/styles.css",
+    "compressed": "sass --source-map -w scss/styles.scss css/styles.css --style=compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}
